@@ -22,6 +22,7 @@ function calculateMinCost() {
       return a - b;
     });
   }
+	totalCost=totalCost.toString();
 
   document.getElementById("result").innerHTML = totalCost;
 }
