@@ -1,6 +1,6 @@
 function calculateMinCost() {
-  var btn = document.getElementById("rope-lengths");
-  var btnArr = btn.value.split(',').map(function(params) {
+  var btn = document.getElementById("rope-lengths").value;
+  var btnArr = btn.split(',').map(function(params) {
     return parseInt(params);
   });
 
